@@ -75,7 +75,9 @@ body {
   padding: 2rem;
 }
 
-
+.lead {
+  font-size: 1.5rem;
+}
 /*
  * Header
  */
