@@ -6,7 +6,8 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgb(102, 182, 130);
+  border-bottom: .5rem solid transparent;
 }
 
 /* Custom default button */
@@ -16,7 +17,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: .05rem solid #fff;
+  
 }
 
 
