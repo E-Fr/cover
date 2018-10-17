@@ -5,10 +5,10 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 3%;
-    background-color: rgb(84, 187, 163);
+    /* background-color: rgb(84, 187, 163); */
     color: rgb(247, 199, 42);
 }
 
@@ -20,6 +20,8 @@ h1 {
     font-weight: 900;
     line-height: 1em;
     margin-bottom: 1rem;
+    /* color: rgb(235, 75, 27);
+    color:rgb(84, 187, 163) ; */
 }
 
 
@@ -35,7 +37,10 @@ p {
     height:100%;
     display:block;
     color: rgb(235, 75, 27); 
-    cursor: pointer;  
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 
@@ -51,8 +56,15 @@ p {
     font-family: 'Martel', serif;
     font-weight: 900;
     color: rgb(235, 75, 27);  
-    background-color: rgb(254, 214, 83);
+    background-color:  rgb(84, 187, 163);
     font-size: 5rem;    
+}
+
+.contact:hover {
+    background-color:   rgb(235, 75, 27);     
+}
+.contact a:hover {    
+    color:rgb(84, 187, 163);
 }
 
 .hi {
@@ -79,18 +91,34 @@ p {
 }
 
 .folio  {
-    background: url("https://78.media.tumblr.com/f68c678fc1abe2120b2b98d49685a292/tumblr_mzzlsghO1c1sof03bo1_1280.jpg")center no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    
-    
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    background-color: rgb(235, 75, 27);  
+    font-size: 3rem;    
+}
+.folio a {
+    color: rgb(254, 214, 83);
+}
+.folio:hover {
+    background-color:  rgb(84, 187, 163);     
+}
+.folio a:hover {    
+    color:rgb(254, 214, 83);
 }
 
 .photograph  {
-    background: url("https://78.media.tumblr.com/474036709671062c687225e2d3883cb6/tumblr_o2bcravmlv1sof03bo1_1280.jpg")center no-repeat;
-    background-size: cover;
-    cursor: pointer;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    color: rgb(235, 75, 27);  
+    background-color: rgb(254, 214, 83);
+    font-size: 3rem; 
+}
 
+.photograph:hover {
+    background-color: rgb(235, 75, 27);     
+}
+.photograph a:hover {    
+    color: rgb(254, 214, 83);
 }
 
 
